@@ -5,9 +5,9 @@ from typing import Tuple, List
 import numpy as np
 import pandas as pd
 
-from experiment.data_loader import DataLoader
-from experiment.data_splits import set_train_val_test_split, set_train_val_test_split_frac
-from experiment.training_loop import evaluate
+from data_loader import DataLoader
+from data_splits import set_train_val_test_split, set_train_val_test_split_frac
+from training_loop import evaluate
 from models.gcn import GCN
 from utils.hyperparams import hyperparams
 from utils.seeds import val_seeds, test_seeds
