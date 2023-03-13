@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import pickle
 import random
 from typing import Tuple, List
