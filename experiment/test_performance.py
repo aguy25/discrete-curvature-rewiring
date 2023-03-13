@@ -5,6 +5,8 @@ from typing import Tuple, List
 
 import numpy as np
 import pandas as pd
+import sys
+sys.path.append('../')
 
 from experiment.data_loader import DataLoader
 from experiment.data_splits import set_train_val_test_split, set_train_val_test_split_frac
