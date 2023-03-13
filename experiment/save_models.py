@@ -2,6 +2,8 @@ import os
 import pickle
 import random
 from typing import List
+import sys
+sys.path.append('../')
 
 import torch.optim
 from tqdm import tqdm
